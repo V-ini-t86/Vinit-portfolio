@@ -2,11 +2,15 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Icon } from '@iconify/react'
+import leetcodeIcon from '@iconify/icons-simple-icons/leetcode'
+import settingsFilled from '@iconify/icons-ci/settings-filled'
 import {
   faLinkedin,
   faGithub,
   faYoutube,
   faSkype,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
@@ -25,6 +29,9 @@ const Sidebar = () => {
         <NavLink activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
+        <NavLink activeclassname="active" className="skills-link" to="/skills">
+          <Icon icon={settingsFilled} color="#4d4d4e" />
+        </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
@@ -35,8 +42,20 @@ const Sidebar = () => {
       </nav>
       <ul>
         <li>
+          {/* <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+          </a> */}
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://leetcode.com/user8902F/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Icon icon={leetcodeIcon} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/vinit-joshi-17b6751a0/"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,25 +64,21 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/V-ini-t86/"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
+
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://twitter.com/VinitJo47730792"
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
           </a>
         </li>
       </ul>

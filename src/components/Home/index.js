@@ -9,22 +9,42 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
+  const nameArray = [
     ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
+    ' ',
+    'V',
+    'i',
+    'n',
+    'i',
+    't',
+    '',
+    'J',
     'o',
-    'p',
-    'e',
-    'r',
-    '.',
+    's',
+    'h',
+    'i',
+  ]
+  const jobArray = [
+    // 'M',
+    // 'E',
+    // 'R',
+    // 'N',
+    // ' ',
+    // 's',
+    // 't',
+    // 'a',
+    // 'c',
+    // 'k',
+    // ' ',
+    // 'd',
+    // 'e',
+    // 'v',
+    // 'e',
+    // 'l',
+    // 'o',
+    // 'p',
+    // 'e',
+    // 'r',
   ]
 
   useEffect(() => {
@@ -43,10 +63,10 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
+            {/* <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
-            />
+            /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -59,7 +79,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>MERN Developer / JavaScript / Leetcode 200+ </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
