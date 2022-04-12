@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileImg from '../../../assets/images/VinitPort.jpg'
+import ProfileImg from '../../../assets/images/profile-img.jpg'
 import './index.scss'
 
 function ProfileImage() {

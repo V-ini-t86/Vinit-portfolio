@@ -121,7 +121,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="info-map">
+        <div className="skills-map">
           {techTag &&
             techTag.map((tech) => {
               return (
