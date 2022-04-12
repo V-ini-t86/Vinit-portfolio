@@ -1,11 +1,30 @@
 .home-page {
+  @media (min-width: 1044px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 1043px) {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+  }
+
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    position: relative;
+    bottom: 10%;
+    // left: 10%;
+    // top: 50%;
+    // transform: translateY(-50%);
+    // width: 40%;
+    // max-height: 90%;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    flex-direction: column;
+    justify-content: center;
   }
 
   h1 {
@@ -51,9 +70,12 @@
 
   h2 {
     color: #8d8d8d;
-    margin-top: 20px;
+    position: relative;
+    bottom: 30px;
+    /* margin-top: 20px; */
+    padding-bottom: 1px;
     font-weight: 400;
-    font-size: 11px;
+    /* font-size: 11px; */
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
@@ -79,5 +101,3 @@
     }
   }
 }
-
-

@@ -19,8 +19,9 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        {/* <img src={LogoS} alt="Logo" />
+        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" /> */}
+        <h4>Vinit</h4>
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">

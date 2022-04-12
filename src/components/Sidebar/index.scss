@@ -8,9 +8,13 @@
   min-height: 500px;
 
   .logo {
-    display: block;
+    display: flex;
     padding: 8px 0;
-
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
     img {
       display: block;
       margin: 8px auto;

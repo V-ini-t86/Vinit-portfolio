@@ -8,7 +8,12 @@
   right: 0;
   overflow: hidden;
 }
-
+.text-zone {
+  a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+}
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
