@@ -33,19 +33,21 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm very ambitious DSA problem solver and MERN Developer looking for
+            a role in established IT company with the opportunity to work with
+            the latest technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+          <a
+            className="link"
+            target="_blank"
+            href="https://drive.google.com/file/d/1PQYDb0xtEu1QXKsj5uv5qii80RGmZTFd/view?usp=sharing"
+          >
+            Link To Resume
+          </a>
         </div>
 
         <div className="stage-cube-cont">
