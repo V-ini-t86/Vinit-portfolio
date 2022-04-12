@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
 import './index.scss'
+import ProfileImage from './ProfileImage'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -79,12 +80,12 @@ const Home = () => {
               idx={22}
             />
           </h1>
+          <br />
+
           <h2>MERN Developer / JavaScript / Leetcode 200+ </h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
+        <ProfileImage />
       </div>
 
       <Loader type="pacman" />
